@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <title>Abigail & José - Nuestra Boda</title>
+    <link rel="icon" href="images/heart.png">
+</head>
+<body>
+    <div class="loader">
+        <div class="loader__elementos">
+            <img src="images/logo_iniciales.svg" alt="iniciales logo" class="loader__iniciales">
+            <h1 class="loader__texto">¡Te invitamos a nuestra boda!</h1>
+        </div>
+    </div>
+    <div class="reproductor">
+        <div class="reproductor__play">
+            <i class="fa-solid fa-play"></i>
+        </div>
+        <div class="reproductor__pause">
+            <i class="fa-solid fa-pause"></i>
+        </div>
+    </div>
+    <header class="principal">
+        <div class="maxWidth">
+            <div class="principal__elementos">
+                <h1 class="principal__nombres">
+                    <span id="nombre-novia-corto-1"></span>
+                    y 
+                    <span id="nombre-novio-corto-1"></span>
+                </h1>
+                <h2 class="principal__subtitulo">¡Nos casamos!</h2>
+                <p class="principal__fecha">
+                    <span id="dia-boda-1"></span>
+                    de
+                    <span id="mes-boda-1"></span>
+                    ,
+                    <span id="año-boda-1"></span>
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <!--<section class="musicaFondo">
+        <div class="maxWidth">
+            <div class="frase__elementos elemento-5 asig aux">
+                <div><p>Dale <b>Play</b> para escuchar nuestra canción</p></div>
+                <div>
+                    <audio src="./Musica/musicaFondo.mpeg" autoplay loop controls></audio>
+                    
+                </div>
+            </div>
+        </div>
+    </section>-->
+     <section class="frase">
+        <div class="maxWidth">
+            <div class="frase__elementos">
+                <div><p class="frase__texto">Dale <b>Play</b> para escuchar nuestra canción</p></div>
+                <div style="text-align: center;">
+                    <audio src="./Musica/musicaFondo.mpeg" autoplay loop controls></audio>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="padres">
+        <div class="maxWidth">
+            <div class="padres__elementos">
+                <p class="padres__encabezado elemento-0 asig aux">
+                    Con la bendición de Dios y de nuestros padres
+                </p>
+                <div class="padres__contenedor">
+                    <div class="padres__c_nombres elemento-1 asig aux">
+                        <img src="images/icono-novia.svg" alt="icono novia" class="padres__icono">
+                        <h2 class="padres__subtitulo">Padres de la novia</h2>
+                        <p class="padres__nombre">
+                            <span id="nombre-mom-novia"></span> 
+                        </p>
+                        <p class="padres__nombre">
+                            <span id="nombre-dad-novia"></span>
+                        </p>
+                    </div>
+                    <div class="padres__c_nombres elemento-2 asig aux">
+                        <img src="images/icono-novio.svg" al2t="icono novio" class="padres__icono">
+                        <h2 class="padres__subtitulo">Padres del novio</h2>
+                        <p class="padres__nombre">
+                            <span id="nombre-mom-novio"></span>
+                        </p>
+                        <p class="padres__nombre">
+                            <span id="nombre-dad-novio"></span>
+                        </p>
+                    </div>
+                    <div class="padres__c_nombres elemento-3 asig aux">
+                        <img src="images/icono-padrinos.svg" alt="icono padrinos" class="padres__icono">
+                        <h2 class="padres__subtitulo">Nuestros padrinos</h2>
+                        <p class="padres__nombre">
+                            <span id="nombre-madrina"></span>
+                        </p>
+                        <p class="padres__nombre">
+                            <span id="nombre-padrino"></span>  
+                        </p>
+                    </div>
+                </div>
+                <p class="padres__final elemento-4 asig aux">Te invitamos a nuestra boda la cual se celebrará el 
+                    <span id="dia-boda-2"></span> de 
+                    <span id="mes-boda-2"></span> del 
+                    <span id="año-boda-2"></span>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="frase">
+        <div class="maxWidth">
+            <div class="frase__elementos elemento-5 asig aux">
+                <p class="frase__texto">
+                    <i>
+                        <span id="frase"></span>
+                    </i>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contador">
+        <div class="maxWidth">
+            <div class="contador__elementos">
+                <div class="contador__cuadro elemento-6 asig aux">
+                    <h2 class="contador__titulo">Sólo faltan:</h2>
+                    <div class="contador__regresivo">
+                        <div class="contador_contenedor">
+                            <span class="contador__numero dias">20</span>
+                            <p class="contador__texto">Dias</p>
+                        </div>
+                        <div class="contador_contenedor">
+                            <span class="contador__numero horas">12</span>
+                            <p class="contador__texto">Horas</p>
+                        </div>
+                        <div class="contador_contenedor">
+                            <span class="contador__numero minutos">45</span>
+                            <p class="contador__texto">Minutos</p>
+                        </div>
+                        <div class="contador_contenedor">
+                            <span class="contador__numero segundos">38</span>
+                            <p class="contador__texto">Segundos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ubicaciones">
+        <div class="maxWidth">
+            <div class="ubicaciones__elementos">
+                <h1 class="ubicaciones__titulo elemento-7 asig aux">Ubicaciones</h1>
+                <div class="ubicaciones__cards">
+                    <div class="ubicaciones__card elemento-8 asig aux">
+                        <img src="images/iglesia.svg" alt="iglesia icono" class="ubicaciones__icono">
+                        <h3 class="ubicaciones__subtitulo">Ceremonia</h3>
+                        <p class="ubicacion__direccion">La ceremonia se llevará a cabo en 
+                            <span id="ceremonia-direccion"></span>
+                        </p>
+                        <p class="ubicacion__hora">Hora: 
+                            <span id="ceremonia-hora"></span>
+                        </p>
+                        <a href="https://maps.app.goo.gl/yo44c4TyiDQASU9i8" class="ubicacion__boton">Ver ubicación</a>                        
+                    </div>
+                    <div class="ubicaciones__card elemento-9 asig aux">
+                        <img src="images/celebracion.svg" alt="iglesia icono" class="ubicaciones__icono">
+                        <h3 class="ubicaciones__subtitulo">Celebración</h3>
+                        <p class="ubicacion__direccion">La celebración se llevará a cabo en 
+                            <span id="celebracion-direccion"></span>
+                        </p>
+                        <p class="ubicacion__hora">Hora: 
+                            <span id="celebracion-hora"></span>
+                        </p>
+                        <a href="https://maps.app.goo.gl/kDqn3zJQbPEfTVDm7" class="ubicacion__boton">Ver ubicación</a>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="itinerario">
+        <div class="maxWidth">
+            <div class="itinerario__elementos">
+                <h2 class="itinerario__titulo elemento-10 asig aux">Iitinerario</h2>
+                <div class="itinerario__contenedor">
+                    <div class="itinerario__actividad elemento-11 asig aux">
+                        <img src="images/cruz_1.svg" alt="cruz icono" class="itinerario__icono">
+                        <h3 class="itinerario__subtitulo">Ceremonia</h3>
+                        <p class="itinerario__texto">Acompañanos a recibir la bendición de Dios</p>
+                    </div>
+                    <div class="itinerario__actividad elemento-12 asig aux">
+                        <img src="images/fotos_2.svg" alt=" icono" class="itinerario__icono">
+                        <h3 class="itinerario__subtitulo">Recepción</h3>
+                        <p class="itinerario__texto">Tomate fotos con nosotros</p>
+                    </div>
+                    <div class="itinerario__actividad elemento-13 asig aux">
+                        <img src="images/comida_3.svg" alt=" icono" class="itinerario__icono">
+                        <h3 class="itinerario__subtitulo">Comida</h3>
+                        <p class="itinerario__texto">Disfruta de una comida deliciosa</p>
+                    </div>
+                    <div class="itinerario__actividad elemento-14 asig aux">
+                        <img src="images/copas_4.svg" alt=" icono" class="itinerario__icono">
+                        <h3 class="itinerario__subtitulo">Brindis</h3>
+                        <p class="itinerario__texto">Brinda con nosotros</p>
+                    </div>
+                    <div class="itinerario__actividad elemento-15 asig aux">
+                        <img src="images/comida_3.svg" alt=" icono" class="itinerario__icono">
+                        <h3 class="itinerario__subtitulo">Cena</h3>
+                        <p class="itinerario__texto">Disfruta de una cena deliciosa</p>
+                    </div>
+                    <div class="itinerario__actividad elemento-16 asig aux">
+                        <img src="images/baile_6.svg" alt=" icono" class="itinerario__icono">
+                        <h3 class="itinerario__subtitulo">Baile</h3>
+                        <p class="itinerario__texto">Saca tus mejores pasos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="vestimenta">
+        <div class="maxWidth">
+            <div class="vestimenta__elementos">
+                <h1 class="vestimenta__titulo elemento-17 asig aux">Código de vestimenta</h1>
+                <div class="vestimenta__contenedor">
+                    <div class="vestimenta__contenido elemento-18 asig aux">
+                        <img src="images/saco.svg" alt="saco hombre" class="vestimenta__icono">
+                        <h3 class="vestimenta__subtitulo">Hombres</h3>
+                        <p class="vestimenta__texto">Traje completo con moño o corbata</p>
+                    </div>
+                    <div class="vestimenta__contenido elemento-19 asig aux">
+                        <img src="images/vestido.svg" alt="vestido largo" class="vestimenta__icono">
+                        <h3 class="vestimenta__subtitulo">Mujeres</h3>
+                        <p class="vestimenta__texto">Vestido largo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="galeria">
+        <div class="galeria__elementos"></div>
+    </section>
+
+    <section class="restricciones">
+        <div class="maxWidth">
+            <div class="restricciones__elementos">
+                <div class="restricciones__contenedor elemento-20 asig aux">
+                    <img src="images/boletos.svg" alt="saco hombre" class="restricciones__icono">
+                    <p class="restricciones__texto">Hemos reservado 
+                        <span id="numero-boletos"></span>
+                        lugares para que tu y quien desees puedan acompañarnos en este dia tan importante</p>
+                </div>
+                <div class="restricciones__contenedor elemento-21 asig aux">
+                    <img src="images/chicos.svg" alt="saco hombre" class="restricciones__icono">
+                    <p class="restricciones__texto">Por favor, ten en cuenta que será un evento sólo para adultos. Apreciamos tu comprensión y esperamos compartir contigo un momento maravilloso</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="asistencia">
+        <div class="maxWidth">
+            <div class="asistencia__elementos">
+                <h1 class="asistencia__titulo elemento-22 asig aux">Confirma tu asistencia</h1>
+                <div class="asistencia__contenedor">
+                    <div class="asistencia__confirmacion elemento-23 asig aux">
+                        <p class="asistencia__nombre">
+                            <span id="n">Llenando el siguiente formulario</span>
+                        </p>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdYuAiqIu-s75yWYS9eSse0Rm4GAxO7KgjXRjv0o6V9u2_fXw/viewform?usp=sf_link" target="_blank" class="asistencia__boton">Confirmar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="maxWidth">
+            <div class="footer__elementos">
+                <p class="footer__inicial elemento-25 asig aux">Tu presencia es demasiado importante para nosotros</p>
+                <h1 class="footer__nombres elemento-26 asig aux">
+                    <span id="nombre-novia-corto-3"></span>
+                    y <span id="nombre-novio-corto-3"></span>
+                </h1>
+                <p class="footer__final elemento-27 asig aux">¡Te esperamos, no faltes!</p>
+                <img src="images/condincy_logo.svg" alt="codincy logo" class="footer__logo elemento-28 asig aux">
+            </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/676f8336d2.js" crossorigin="anonymous"></script>
+    <script src="scripts/script-main.js"></script>
+    <script src="scripts/script-countdown.js"></script>
+    <script src="scripts/script-animations.js"></script>
+    <script src="scripts/script-datos.js"></script>
+</body>
+</html>
