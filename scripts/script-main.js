@@ -10,10 +10,10 @@ setTimeout(() => {
     principalNombres.style.animationName = 'entradaInicio';
     principalSubtitulo.style.animationName = 'entradaInicio';
     principalFecha.style.animationName = 'entradaInicio';
-},1000);
+},5000);
 
 /* REPRODUCTOR */
-const sound = new Audio('../Elisa-y-Diego---Nuestra-Boda/images/ojoscafes.wav');
+const sound = new Audio('./Musica/MarryYou.mp3');
 
 const play = document.querySelector('.reproductor__play');
 const pausa = document.querySelector('.reproductor__pause');
@@ -29,8 +29,4 @@ pausa.addEventListener('click', () => {
     sound.pause();
     play.style.display = 'block';
     pausa.style.display = 'none';
-    
 });
-
-
-

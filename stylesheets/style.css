@@ -234,7 +234,7 @@ body {
 .contador {
     width: 100%;
     min-height: 20vh;
-    background: url('../images/2.jpg');
+    background: url('../images/anillos.jpeg');
     background-position: center;
     background-size: cover;
     overflow: hidden;
@@ -707,11 +707,11 @@ body {
 
 @keyframes cambioImagen {
     0%, 30%, 100%{
-        background-image: url('../images/3.jpg');
+        background-image: url('../images/carrusel1.jpeg');
     }
 
     40%, 60%{
-        background-image: url('../images/4.jpg');
+        background-image: url('../images/carrusel2.jpeg');
         opacity: 1;
     }
 
